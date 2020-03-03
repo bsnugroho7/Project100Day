@@ -12,7 +12,7 @@ class stack{
             count++;
         }
         void peek(){
-            cout<<--(*arr);
+            cout<<*(arr-1)<<endl;
         }
         void pop(){
             for(int i=0;i<count;i++) {
@@ -32,7 +32,6 @@ do{
     cout<<"1. Push\n";
     cout<<"2. Pop\n";
     cout<<"3. Peek\n";
-    cout<<"4. Cari\n";
     cout<<"0. Selesai\n";
     cout<<"pilihan : ";cin>>pilih;
     switch(pilih){
@@ -44,6 +43,7 @@ do{
                     break;
         case 3 :    cout<<"Peek Angka teratas : ";
                     pertama.peek();
+                    break;
     }
 }
 while (pilih!=0);
