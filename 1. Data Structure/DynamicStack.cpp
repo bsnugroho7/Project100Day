@@ -18,6 +18,7 @@ class stack{
             for(int i=0;i<count;i++) {
                 --arr;
                 cout<<*arr<<" ";
+
             }
         }
 };
