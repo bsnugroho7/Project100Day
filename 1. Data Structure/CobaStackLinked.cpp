@@ -31,18 +31,15 @@ class linkedstack{
 
         void pop(){
             node *tmp;
-            int tempor,count;
-            int *ptempor=new int;
+            int tempor[100],cnt=0,i=0;;
             tmp=head;
             while(tmp!=NULL){
-                tempor=tmp->data;
-                ptempor=&tempor;
-                ptempor++;
-                count++;
+                tempor[i]=tmp->data;
+                cnt++; i++;
                 tmp=tmp->next;
             }
-            for (int i=0;i<count;i++){
-                cout<<*(--ptempor)<<"-";
+            for (int j=0;j<i;j++){
+                cout<<tempor[--cnt]<<endl;
             }
         }   
 };
