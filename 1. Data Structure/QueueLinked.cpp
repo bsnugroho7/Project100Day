@@ -46,5 +46,6 @@ int main(){
     a.newNode(5);
     a.newNode(6);
     a.newNode(7);
+    a.remove();
     a.display();
 }
