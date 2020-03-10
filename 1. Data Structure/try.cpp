@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
-    string saya="saya";
-    cout<<saya.length();
+    char *saya;
+    cin>>saya;
+    for(int i =0;i<4;i++)   cout<<*(saya+i);
 }
