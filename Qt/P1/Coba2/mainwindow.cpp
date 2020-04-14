@@ -13,3 +13,10 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
+void MainWindow::on_pushButton_clicked()
+{
+    QString Text=ui->lineEdit->text();
+    ui->lineEdit->clear();
+    ui->textEdit->append(Text);
+}

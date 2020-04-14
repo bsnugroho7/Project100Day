@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>book.ico</file>
+        <file>Diagram.ico</file>
+        <file>Communicate_1.ico</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>1200px-BNI_logo.svg.png</file>
+    </qresource>
+</RCC>

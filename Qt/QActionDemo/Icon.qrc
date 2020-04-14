@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>32/book.ico</file>
+        <file>32/Books.ico</file>
+        <file>32/Communicate_1.ico</file>
+    </qresource>
+</RCC>
